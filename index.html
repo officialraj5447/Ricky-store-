@@ -74,18 +74,40 @@
     }
 
     .telegram-btn {
+  
+.telegram-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 34px;
-  min-height: 64px;
-  font-size: 19px;
+  gap: 10px;
+  padding: 18px 28px;
+  min-height: 62px;
+  font-size: 18px;
   font-weight: 800;
   border-radius: 15px;
-  background: linear-gradient(135deg, #159cff, #005bea);
+  background: linear-gradient(135deg, #7c3aed, #087bff, #a855f7);
   color: #ffffff;
-  border: 2px solid #66d1ff;
-  box-shadow: 0 0 16px #008cff99, 0 0 32px #008cff55;
+  border: 1px solid #a78bfa;
+  box-shadow: 0 0 15px #7c3aed99, 0 0 30px #087bff66;
+  animation: vipGlow 2.5s ease-in-out infinite alternate;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+@keyframes vipGlow {
+  from {
+    box-shadow: 0 0 10px #7c3aed77, 0 0 20px #087bff44;
+  }
+  to {
+    box-shadow: 0 0 22px #a855f7, 0 0 38px #087bff99;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #8b5cf6;
+  color: #ffffff;
+}
+
 }
   display: inline-flex;
   align-items: center;
