@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080f20">
+  <title>Rikcy Store | Official Store</title>
+  <meta name="description" content="Welcome to Rikcy Store. Join our Telegram community for the latest updates.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #080f20;
+      color: #fff;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 18px 7%; background: #0e192c;
+      border-bottom: 1px solid #24334b;
+    }
+    .logo { font-size: 24px; font-weight: 800; }
+    .logo span { color: #38a5ff; }
+    .nav-link { color: #c7d5e8; font-size: 14px; }
+    .hero {
+      text-align: center; padding: 85px 20px 75px;
+      background: radial-gradient(ellipse at top, #174b84 0%, #080f20 68%);
+    }
+    .tag {
+      display: inline-block; color: #82caff; background: #142c49;
+      border: 1px solid #24517e; border-radius: 30px;
+      padding: 7px 14px; font-size: 12px; letter-spacing: 1px;
+    }
+    h1 { font-size: clamp(36px, 7vw, 62px); line-height: 1.12; margin: 25px 0 18px; }
+    h1 span { color: #38a5ff; }
+    .hero p { color: #c4d2e8; max-width: 520px; margin: 0 auto 26px; }
+    .btn {
+      display: inline-block; background: #087bff; color: #fff;
+      padding: 13px 22px; border-radius: 9px; font-weight: bold;
+      margin: 6px; transition: .2s;
+    }
+    .btn:hover { background: #0064d6; transform: translateY(-2px); }
+    .btn-outline { background: transparent; border: 1px solid #438dcc; }
+    .section { padding: 55px 20px; }
+    .section-title { text-align: center; font-size: 30px; margin-bottom: 10px; }
+    .section-desc { text-align: center; color: #9fb1ca; margin-bottom: 30px; }
+    .cards {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px; max-width: 760px; margin: auto;
+    }
+    .card {
+      background: #121f34; border: 1px solid #293d59;
+      border-radius: 15px; padding: 24px 12px; text-align: center;
+    }
+    .card .icon { font-size: 34px; margin-bottom: 9px; }
+    .card h3 { font-size: 17px; margin-bottom: 5px; }
+    .card p { color: #aebed3; font-size: 13px; }
+    .join {
+      text-align: center; padding: 48px 20px;
+      background: #101c30; border-top: 1px solid #263b57;
+    }
+    .join p { color: #b9c9de; margin: 10px 0 17px; }
+    footer { text-align: center; padding: 22px; color: #91a2bb; font-size: 13px; }
+    @media (min-width: 700px) {
+      .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="#">Rikcy <span>Store</span></a>
+    <a class="nav-link" href="https://t.me/+R1B4hRP8GNRlODVl">Telegram ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">WELCOME TO RIKCY STORE</div>
+      <h1>Your One Stop<br><span>Store & Community</span></h1>
+      <p>Discover our store and join our Telegram community for the latest news, updates and announcements.</p>
+      <a class="btn" href="https://t.me/+R1B4hRP8GNRlODVl" target="_blank" rel="noopener">Join Telegram ↗</a>
+      <a class="btn btn-outline" href="#explore">Explore Store</a>
+    </section>
+
+    <section class="section" id="explore">
+      <h2 class="section-title">Explore Our Store</h2>
+      <p class="section-desc">Discover what Rikcy Store has to offer.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📱</div>
+          <h3>Electronics</h3>
+          <p>Explore our collection</p>
+        </article>
+        <article class="card">
+          <div class="icon">🎧</div>
+          <h3>Accessories</h3>
+          <p>Everyday essentials</p>
+        </article>
+        <article class="card">
+          <div class="icon">⌚</div>
+          <h3>Smart Gadgets</h3>
+          <p>Discover new items</p>
+        </article>
+        <article class="card">
+          <div class="icon">✨</div>
+          <h3>Latest Updates</h3>
+          <p>Stay connected with us</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="join">
+      <h2>Join Our Telegram Community</h2>
+      <p>Connect with Rikcy Store to receive our latest updates.</p>
+      <a class="btn" href="https://t.me/+R1B4hRP8GNRlODVl" target="_blank" rel="noopener">Join Now →</a>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Rikcy Store. All rights reserved.
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
