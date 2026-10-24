@@ -74,10 +74,20 @@
     }
 
     .telegram-btn {
-      background: linear-gradient(135deg, #159cff, #0064e8);
-      box-shadow: 0 0 22px #087bff70;
-      border: 1px solid #53b5ff;
-      animation: glow 2s infinite alternate;
+      .telegram-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 34px;
+  min-height: 64px;
+  font-size: 19px;
+  font-weight: 800;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #159cff, #005bea);
+  color: #ffffff;
+  border: 2px solid #66d1ff;
+  box-shadow: 0 0 16px #008cff99, 0 0 32px #008cff55;
+}
     }
 
     @keyframes glow {
