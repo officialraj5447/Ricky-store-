@@ -172,18 +172,28 @@ footer{font-size:11px}
   position: relative;
 }
 
+.logo-wrap {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
 .logo-verified {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #e60073;
+  position: absolute;
+  right: -5px;
+  bottom: -3px;
+  width: 21px;
+  height: 21px;
+  background: #1877f2;
   color: white;
   border: 2px solid white;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
   font-weight: bold;
+  z-index: 10;
 }
   </style>
 </head>
@@ -194,8 +204,10 @@ footer{font-size:11px}
 <div class="brand">
 
 <!-- TOP LOGO -->
-<img src="logo.jpg" class="brand-logo" alt="Shree Win Logo">
-<span class="logo-verified">✓</span>
+<div class="logo-wrap">
+  <img src="logo.jpg" class="brand-logo" alt="Shree Win Logo">
+  <span class="logo-verified">✓</span>
+</div>
 
 <div>
 <div class="brand-name">ARYAN VIP CHANNELS</div>
@@ -213,9 +225,12 @@ footer{font-size:11px}
 
 <!-- MAIN LOGO -->
 <div class="hero-logo-block">
+  <div class="logo-wrap">
   <img src="images (4).jpeg"
        class="main-logo"
        alt="Shree Win Logo">
+  <span class="logo-verified">✓</span>
+</div>
 
   <div class="official">
     OFFICIAL TELEGRAM CHANNEL
