@@ -23,7 +23,24 @@ fbq('track','PageView');
 src="https://www.facebook.com/tr?id=1900448150934388&ev=PageView&noscript=1">
 </noscript>
 <!-- END PIXEL -->
+.logo-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #ed2780;
+}
 
+.hero-logo {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #ed2780;
+    padding: 5px;
+    background: white;
+}
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{
@@ -163,8 +180,7 @@ footer{font-size:11px}
 <body>
 
 <header class="topbar">
-<div class="brand">
-<img src="logo.jpg" alt="Aryan Boss Logo">
+<img src="logo.jpg" class="hero-logo" alt="Aryan Boss">
 <div>
 <div class="brand-name">ARYAN VIP CHANNELS</div>
 <div class="verified">VERIFIED CHANNEL</div>
@@ -179,7 +195,7 @@ footer{font-size:11px}
 
 <div class="hero">
 
-<img class="logo-big" src="logo.jpg" alt="Aryan Boss">
+<img src="logo.jpg" class="logo-img" alt="Aryan Boss">
 
 <div class="official">OFFICIAL TELEGRAM CHANNEL</div>
 
