@@ -1,251 +1,348 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<
-<!DOCTYPE html>
-<html>
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Boss | VIP Channel</title>
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f.fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '4105417613093306');
-fbq('track', 'PageView');
-  fbq('track', 'AddToCart');
-</script>
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=4105417613093306&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
-
-</head>
-<body>
-  <!-- Tumhari website ka purana content yahan rahega -->
-</body>
-</html>
->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#080f20">
-  <title> | All Members</title>
-
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #080f20;
-      color: #fff;
-      line-height: 1.6;
-    }
-
-    a { text-decoration: none; color: inherit; }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 7%;
-      background: #0e192c;
-      border-bottom: 1px solid #24334b;
-    }
-
-    .logo { font-size: 24px; font-weight: 800; }
-    .logo span, h1 span { color: #38a5ff; }
-    .nav-link { color: #c7d5e8; font-size: 14px; }
-
-    .hero {
-      text-align: center;
-      padding: 85px 20px 75px;
-      background: radial-gradient(ellipse at top, #174b84 0%, #080f20 68%);
-    }
-
-    .tag {
-      display: inline-block;
-      color: #82caff;
-      background: #142c49;
-      border: 1px solid #24517e;
-      border-radius: 30px;
-      padding: 7px 14px;
-      font-size: 12px;
-      letter-spacing: 1px;
-    }
-
-    h1 {
-      font-size: clamp(36px, 7vw, 62px);
-      line-height: 1.12;
-      margin: 25px 0 18px;
-    }
-
-    .hero p {
-      color: #c4d2e8;
-      max-width: 520px;
-      margin: 0 auto 26px;
-    }
-
-    .btn {
-      display: inline-block;
-      background: #087bff;
-      color: #fff;
-      padding: 14px 23px;
-      border-radius: 9px;
-      font-weight: bold;
-      margin: 6px;
-      transition: .2s;
-    }
-
-    .telegram-btn {
-  
-.telegram-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 18px 28px;
-  min-height: 62px;
-  font-size: 18px;
-  font-weight: 800;
-  border-radius: 15px;
-  background: linear-gradient(135deg, #7c3aed, #087bff, #a855f7);
-  color: #ffffff;
-  border: 1px solid #a78bfa;
-  box-shadow: 0 0 15px #7c3aed99, 0 0 30px #087bff66;
-  animation: vipGlow 2.5s ease-in-out infinite alternate;
-  transition: transform 0.25s, box-shadow 0.25s;
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes vipGlow {
+body {
+  font-family: Arial, sans-serif;
+  background: #03051c;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 6%;
+  background: #080a2b;
+  border-bottom: 2px solid #9c00ff;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 900;
+  color: white;
+}
+
+.logo span {
+  color: #00cfff;
+}
+
+.top-btn {
+  text-decoration: none;
+  color: white;
+  border: 2px solid #00bfff;
+  padding: 12px 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px #008cff;
+  font-weight: bold;
+}
+
+.hero {
+  max-width: 1150px;
+  margin: auto;
+  padding: 55px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex: 1 1 300px;
+  max-width: 420px;
+  text-align: center;
+}
+
+.photo img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid #a000ff;
+  box-shadow: 0 0 30px #6900ff;
+}
+
+.content {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ffd600;
+  color: black;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 900;
+  box-shadow: 0 0 20px #ffd600;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: clamp(40px, 7vw, 75px);
+  font-weight: 1000;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #00cfff;
+  text-shadow: 0 0 20px #007bff;
+}
+
+.join-now {
+  font-size: 35px;
+  font-weight: 900;
+  font-style: italic;
+  background: linear-gradient(90deg,#ed00ff,#00d9ff);
+  color: #05051b;
+  padding: 12px;
+  transform: skew(-5deg);
+  margin-bottom: 25px;
+}
+
+.description {
+  font-size: 19px;
+  line-height: 1.6;
+  color: #e5e8ff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+  margin: 35px 0;
+}
+
+.feature {
+  flex: 1;
+  padding: 12px 5px;
+  border-right: 1px solid #5850a8;
+}
+
+.feature:last-child {
+  border: none;
+}
+
+.feature .emoji {
+  font-size: 35px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.join-button {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  margin: 30px auto;
+  padding: 22px 12px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: clamp(23px, 4vw, 35px);
+  font-weight: 900;
+  border-radius: 60px;
+  background: linear-gradient(90deg,#00cfff,#2400ff,#d000ff);
+  border: 3px solid #fff;
+  box-shadow: 0 0 15px #00cfff, 0 0 35px #a000ff;
+  animation: glow 1.5s infinite alternate;
+  transition: .3s;
+}
+
+.join-button:hover {
+  transform: scale(1.04);
+}
+
+@keyframes glow {
   from {
-    box-shadow: 0 0 10px #7c3aed77, 0 0 20px #087bff44;
+    box-shadow: 0 0 12px #00cfff, 0 0 20px #a000ff;
   }
   to {
-    box-shadow: 0 0 22px #a855f7, 0 0 38px #087bff99;
+    box-shadow: 0 0 25px #00cfff, 0 0 45px #e000ff;
   }
 }
 
-.btn-outline {
-  background: transparent;
-  border: 1px solid #8b5cf6;
-  color: #ffffff;
-}
-
-}
-  display: inline-flex;
+.bottom {
+  max-width: 1000px;
+  margin: 35px auto;
+  padding: 25px;
+  border: 2px solid #c000ff;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #9d00ff;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  padding: 20px 34px;
-  min-height: 64px;
-  font-size: 19px;
-  font-weight: 800;
-  border-radius: 15px;
-  background: linear-gradient(135deg, #159cff, #005bea);
-  color: #ffffff;
-  border: 2px solid #66d1ff;
-  box-shadow: 0 0 16px #008cff99, 0 0 32px #008cff55;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
 }
-    }
 
-    @keyframes glow {
-      from { box-shadow: 0 0 10px #087bff55; }
-      to { box-shadow: 0 0 25px #087bffbb; }
-    }
+.bottom h2 {
+  color: #ffe000;
+  font-size: 30px;
+}
 
-    .btn:hover { background: #0064d6; transform: translateY(-2px); }
-    .btn-outline { background: transparent; border: 1px solid #438dcc; }
+.bottom p {
+  font-size: 17px;
+  margin-top: 7px;
+}
 
-    .section { padding: 55px 20px; }
-    .section-title { text-align: center; font-size: 30px; margin-bottom: 10px; }
-    .section-desc { text-align: center; color: #9fb1ca; margin-bottom: 30px; }
+.disclaimer {
+  text-align: center;
+  padding: 25px 12px;
+  color: #b9b9d8;
+  font-size: 13px;
+}
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-      max-width: 760px;
-      margin: auto;
-    }
+@media(max-width:650px) {
+  header {
+    padding: 15px 4%;
+  }
 
-    .card {
-      background: #121f34;
-      border: 1px solid #293d59;
-      border-radius: 15px;
-      padding: 24px 12px;
-      text-align: center;
-    }
+  .logo {
+    font-size: 21px;
+  }
 
-    .card .icon { font-size: 34px; margin-bottom: 9px; }
-    .card h3 { font-size: 17px; margin-bottom: 5px; }
-    .card p { color: #aebed3; font-size: 13px; }
+  .top-btn {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
 
-    .join {
-      text-align: center;
-      padding: 48px 20px;
-      background: #101c30;
-      border-top: 1px solid #263b57;
-    }
+  .hero {
+    padding: 30px 5%;
+    gap: 25px;
+  }
 
-    .join p { color: #b9c9de; margin: 10px 0 17px; }
+  .photo {
+    max-width: 320px;
+  }
 
-    footer {
-      text-align: center;
-      padding: 22px;
-      color: #91a2bb;
-      font-size: 13px;
-    }
+  .photo img {
+    max-height: 400px;
+  }
 
-    @media (min-width: 700px) {
-      .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-    }
-  </style>
+  .tag {
+    font-size: 18px;
+  }
+
+  .join-now {
+    font-size: 27px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .features {
+    margin: 25px 0;
+  }
+
+  .feature p {
+    font-size: 12px;
+  }
+
+  .join-button {
+    padding: 19px 8px;
+  }
+
+  .bottom {
+    margin: 25px 5%;
+    padding: 20px 10px;
+  }
+}
+</style>
 </head>
 
 <body>
-  <header>
-    <a class="nav-link" href="https://t.me/+R1B4hRP8GNRlODVl"
-       target="_blank" rel="noopener noreferrer">Telegram ↗</a>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="tag">VIP CHANNEL</div>
+<header>
+  <div class="logo">Aryan <span>Boss</span></div>
+  <a class="top-btn"
+     href="https://t.me/+R1B4hRP8GNRlODVl"
+     target="_blank">✈ Telegram ↗</a>
+</header>
 
-<h1>𝐕𝐈𝐏 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ARYAN 𝐁𝐎𝐒𝐒</h1>
+<section class="hero">
 
-<p>
-  Stay updated with the latest information, helpful resources,
-  and important community updates in one place.
-</p>
+  <div class="photo">
+    <img src="aryan-boss.jpg" alt="Aryan Boss">
+  </div>
 
-<div class="features">
-  <p>✔ REGULAR UPDATES</p>
-  <p>✔ HELPFUL RESOURCES</p>
-  <p>✔ ACTIVE COMMUNITY 8500 </p>
-</div>
-      <a class="btn telegram-btn"
-         href="https://t.me/+R1B4hRP8GNRlODVl"
-         
-target="_blank" rel="noopener noreferrer"
-onclick="if (typeof fbq === 'function') { fbq('trackCustom', 'JoinTelegramClick'); }">
+  <div class="content">
 
-        JOIN TELEGRAM NOW ↗
-      </a>
-    <section class="join">
-  </p>
-  </a>
+    <div class="tag">👑 VIP CHANNEL</div>
+
+    <h1>ARYAN <span>BOSS</span></h1>
+
+    <div class="join-now">JOIN NOW</div>
+
+    <p class="description">
+      Stay Updated with the Latest Offers,
+      Deals & More!
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <span class="emoji">⚡</span>
+        <p>Regular<br>Updates</p>
+      </div>
+
+      <div class="feature">
+        <span class="emoji">🎁</span>
+        <p>Exclusive<br>Benefits</p>
+      </div>
+
+      <div class="feature">
+        <span class="emoji">👥</span>
+        <p>Active<br>Community</p>
+      </div>
+    </div>
+
+  </div>
 </section>
-  </main>
-  <footer>
-  </footer>
+
+<a class="join-button"
+   href="https://t.me/+R1B4hRP8GNRlODVl"
+   target="_blank"
+   rel="noopener noreferrer">
+   ✈ JOIN COMMUNITY ➜
+</a>
+
+<div class="bottom">
+  <div>
+    <h2>VIP COMMUNITY</h2>
+    <p>Join Our Members</p>
+  </div>
+
+  <div>
+    <h2>🛡️ Limited Access</h2>
+    <p>Join Now!</p>
+  </div>
+</div>
+
+<div class="disclaimer">
+  Disclaimer: This is an informational channel.
+  Join at your own risk.
+</div>
+
 </body>
 </html>
